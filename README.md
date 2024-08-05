@@ -100,7 +100,7 @@ This custom dataset was designed to provide a diverse range of scenarios to impr
 ### Training Graphs
 
 
-![](t.png)
+![](images/t.png)
 
 ## Preprocessing
 
@@ -115,31 +115,31 @@ This custom dataset was designed to provide a diverse range of scenarios to impr
 
 ### Confusion Matrix
 
-![Confusion Matrix](c.png)
+![Confusion Matrix](images/c.png)
 
 ## Sample Output Images
 
 ### Image 1
 
-![Output Image 1](r1.png)
+![Output Image 1](images/r1.png)
 
 *Description: Example of motorcycle with more than two riders detected.*
 
 ### Image 2
 
-![Output Image 2](fverw.png)
+![Output Image 2](images/fverw.png)
 
 *Description: Example of helmet compliance detection.*
 
 ### Image 3
 
-![Output Image 3](tr.png)
+![Output Image 3](images/tr.png)
 
 *Description: Example of detection results with bounding boxes and labels.*
 
 ### Image 4
 
-![Mobile Detection](m.png)
+![Mobile Detection](images/m.png)
 
 *Description: Example of motorcycle detection with mobile usage.*
 
