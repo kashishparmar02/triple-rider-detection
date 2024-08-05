@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Triple-Rider Detection is a computer vision project that detects motorcycles with more than two riders and checks for helmet compliance. This project utilizes YOLOv8, trained on a custom dataset of over 6,000 images, to achieve high-performance detection.
+Triple-Rider Detection is a computer vision project that detects motorcycles with more than two riders and checks for helmet compliance. Additionally, it identifies if the motorcycle is being used on a mobile device. This project utilizes YOLOv8, trained on a custom dataset of over 6,000 images, to achieve high-performance detection.
 
 ## Table of Contents
 
@@ -13,12 +13,11 @@ Triple-Rider Detection is a computer vision project that detects motorcycles wit
 - [Training Details](#training-details)
 - [Preprocessing](#preprocessing)
 - [Sample Output Images](#sample-output-images)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Description
 
-Triple-Rider Detection aims to enhance motorcycle safety by identifying whether a motorcycle has more than two riders and ensuring all riders are wearing helmets. The project uses YOLOv8 for object detection, providing real-time feedback on helmet compliance.
+Triple-Rider Detection aims to enhance motorcycle safety by identifying whether a motorcycle has more than two riders and ensuring all riders are wearing helmets. The project also detects if the motorcycle is being used on a mobile device. The system uses YOLOv8 for object detection, providing real-time feedback on helmet compliance and usage status.
 
 ## Installation Instructions
 
@@ -81,11 +80,13 @@ Triple-Rider Detection aims to enhance motorcycle safety by identifying whether 
 
 ## Dataset Information
 
-The dataset used for training includes:
+The dataset used for training includes a custom collection of images created specifically for this project. It is divided as follows:
 
 - **Train Set**: 87% (5,295 images)
 - **Validation Set**: 8% (514 images)
 - **Test Set**: 4% (248 images)
+
+This custom dataset was designed to provide a diverse range of scenarios to improve the accuracy and robustness of the model in detecting motorcycles with more than two riders, helmet compliance, and mobile usage.
 
 ## Training Details
 
@@ -98,8 +99,8 @@ The dataset used for training includes:
 
 ### Training Graphs
 
-![Training Loss](path/to/training-loss.png)
-![Training Accuracy](path/to/training-accuracy.png)
+
+![](t.png)
 
 ## Preprocessing
 
@@ -114,28 +115,33 @@ The dataset used for training includes:
 
 ### Confusion Matrix
 
-![Confusion Matrix](path/to/confusion-matrix.png)
+![Confusion Matrix](c.png)
 
 ## Sample Output Images
 
-Here are some examples of the detection results:
+### Image 1
 
-- **Image 1**:
-  ![Output Image 1](path/to/output-image1.png)
-  *Description: Example of motorcycle with more than two riders detected.*
+![Output Image 1](r1.png)
 
-- **Image 2**:
-  ![Output Image 2](path/to/output-image2.png)
-  *Description: Example of helmet compliance detection.*
+*Description: Example of motorcycle with more than two riders detected.*
 
-- **Image 3**:
-  ![Output Image 3](path/to/output-image3.png)
-  *Description: Example of detection results with bounding boxes and labels.*
+### Image 2
 
-## Contributing
+![Output Image 2](fverw.png)
 
-Contributions are welcome! Please open an issue or submit a pull request if you'd like to contribute.
+*Description: Example of helmet compliance detection.*
 
-## License
+### Image 3
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![Output Image 3](tr.png)
+
+*Description: Example of detection results with bounding boxes and labels.*
+
+### Image 4
+
+![Mobile Detection](m.png)
+
+*Description: Example of motorcycle detection with mobile usage.*
+
+
+
